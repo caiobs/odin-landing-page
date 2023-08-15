@@ -1,3 +1,142 @@
 * {
-    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 25px 150px 120px 120px;
+    color: #F9FAF8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 25px;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hero-main h1 {
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
+.hero-main input.bttn {
+    color: white;
+    background-color: #3882F6;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+    border-radius: 1ch;
+    border-style: none;
+    margin-top: 15px;
+}
+
+.hero-main section.image {
+    display: flex;
+    background-color: #8691a8;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+main.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 170px 70px 160px;
+    color: #1F2937;
+}
+
+main.info h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+main.info .images {
+    display: flex;
+    gap: 50px;
+}
+
+main.info .images .img-info {
+    width: 150px;
+}
+
+main.info .images .img-info .image {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+    border: 4px solid #3882F6;
+    border-radius: 10%;
+}
+
+aside {
+    background-color: #E5E7EB;
+    padding: 120px 190px 100px 200px;
+    color: #1F2937;
+}
+
+aside p.phrase {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+aside p.author {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+section.action .act {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    color: white;
+    margin: 100px 150px 100px 130px;
+    padding: 50px 120px;
+    border-radius: 1ch;
+}
+
+section.action .act input {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 1ch;
+    padding: 10px 50px;
+}
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    padding: 35px;
 }
